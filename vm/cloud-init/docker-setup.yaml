@@ -15,4 +15,4 @@ runcmd:
 - curl -sSL https://get.docker.com/ | sh
 - usermod -aG docker azureuser
 - useradd -m deployuser
-- usermod -aG deployuser docker
+- usermod -aG docker deployuser
