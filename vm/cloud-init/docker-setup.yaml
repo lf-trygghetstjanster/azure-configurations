@@ -16,3 +16,5 @@ runcmd:
 - usermod -aG docker azureuser
 - useradd -m deployuser
 - usermod -aG docker deployuser
+- mkdir /certs
+- chown -R deployuser:docker /certs
