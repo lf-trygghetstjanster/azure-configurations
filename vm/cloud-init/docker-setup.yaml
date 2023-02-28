@@ -18,3 +18,5 @@ runcmd:
 - usermod -aG docker deployuser
 - mkdir /certs
 - chown -R deployuser:docker /certs
+- docker network create alf-net
+- docker volume create kong_config_vol
